@@ -9,10 +9,25 @@
 </head>
 
 <body>
-    <ul>
-        <li>Email: <strong>sandyverevkin@gmail.com</strong></li>
-        <li>Phone: <strong>+420 774 066 588</strong></li>
-    </ul>
+    <h1>My contact details</h1>
+    <table>
+        <tr>
+            <td>Email:</td>
+            <td><strong>sandyverevkin@gmail.com</strong></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><strong>+420 774 066 588</strong></td>
+        </tr>
+    </table>
+    <form action="mailto:sandyverevkin@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName"><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail"><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>
