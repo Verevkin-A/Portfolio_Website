@@ -47,6 +47,14 @@ hr {
     margin: 100px auto;
 }
 
+.web_link {
+    margin: auto;
+}
+
+.web_link:hover {
+    color: #61f1f1; 
+}
+
 .header {
     color: #66bfbf;
 }
